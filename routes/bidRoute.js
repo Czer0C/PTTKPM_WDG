@@ -7,7 +7,6 @@ const { urlencoded, json } = bodyParser;
 const AuctionSession = require('../models/AuctionSession');
 const AuctionTicket = require('../models/AuctionTicket');
 
-const Parameter = require('../models/Parameter');
 const router = Router();
 const app = express();
 const checkAuth = require('../middleware/check-auth');
