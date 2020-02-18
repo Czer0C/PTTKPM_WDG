@@ -1,0 +1,10 @@
+.footer {
+	position: relative;
+	padding-bottom: 260px;
+}
+
+@media (min-width: 992px){
+	.footer {
+		height: 100%;
+	}
+}

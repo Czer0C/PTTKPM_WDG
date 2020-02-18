@@ -1,0 +1,13 @@
+#navbar {
+    background-color: #0e8ce4;
+}
+.main_nav_content {
+    padding-right: 75px;
+}
+.main_nav_menu ul li a {
+    color: #fff;
+}
+.main_nav_menu ul li a:hover {
+    color: #000;
+    background-color: #fff;
+}

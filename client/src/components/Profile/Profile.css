@@ -1,0 +1,33 @@
+.container.info {
+    padding: 10px;
+    border: 1px solid #0e8ce4;
+    border-radius: 10px;
+    border-width: 3.5px;
+}
+
+.form-control {
+    color: black;
+}
+.form-control.warning {
+    border-color: red;
+}
+
+.col-sm-2.warning {
+    color: red;
+    line-height: 2.5;
+}
+.col-sm-2.ok {
+    color: mediumspringgreen;
+    line-height: 2.5;
+    font-size: 16px;
+}
+
+::selection {
+    background: cadetblue;
+    /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+    background: cadetblue;
+    /* Gecko Browsers */
+}

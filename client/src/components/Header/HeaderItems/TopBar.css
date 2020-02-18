@@ -1,0 +1,40 @@
+#account {
+    top: 8px;
+}
+
+.btn {
+    background: #0e8ce4;
+    border-color: transparent;
+    
+    border-radius: 0px;
+}
+
+.btn.btn-primary.account {
+    background: transparent;
+    border: none;
+    display: block;
+    outline: none;
+    width: 100%;
+    position: relative;
+    transition: 0.3s;
+    padding: 10px; 
+    color: #0e8ce4;
+
+}
+.btn.btn-primary.account:before {
+    content: '';
+    border-bottom: 2px solid #0e8ce4;
+    padding: 0 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    transition: 0.3s;
+}
+.btn.btn-primary.account:hover:before {
+    width: 100%;
+    padding: 0; 
+
+}

@@ -1,0 +1,7 @@
+.sidebar {
+	background: url(../img/bg4.jpg);
+	background-attachment: fixed;
+	background-position: left center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

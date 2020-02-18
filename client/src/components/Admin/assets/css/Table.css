@@ -1,0 +1,172 @@
+[tooltip] {
+	/* margin: 20px 60px; */
+	position: relative;
+	display: inline-block;
+}
+
+[tooltip]::before {
+	content: "";
+	position: absolute;
+	top: -6px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-width: 4px 6px 0 6px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.7) transparent transparent transparent;
+	z-index: 99;
+	opacity: 0;
+}
+
+[tooltip-position='buttom']::before {
+	top: 100%;
+	margin-top: 8px;
+	transform: translateX(-50%) translatey(-100%) rotate(-180deg)
+}
+
+[tooltip]::after {
+	content: attr(tooltip);
+	position: absolute;
+	left: 50%;
+	top: -6px;
+	transform: translateX(-50%) translateY(-100%);
+	background: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	color: #fff;
+	padding: 4px 2px;
+	font-size: 12px;
+	min-width: 80px;
+	border-radius: 5px;
+	pointer-events: none;
+	padding: 4px 4px;
+	z-index: 99;
+	opacity: 0;
+}
+
+[tooltip-position='buttom']::after {
+	top: 100%;
+	margin-top: 8px;
+	transform: translateX(-50%) translateY(0%);
+}
+
+[tooltip]:hover::after,
+[tooltip]:hover::before {
+	opacity: 1
+}
+
+#modal-x-icon {
+	display: none;
+}
+
+#btnAdd {
+	float: right;
+	font-size: 20px;
+}
+/* The switch - the box around the slider */
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 60px;
+	height: 34px;
+}
+
+/* Hide default HTML checkbox */
+
+.switch input {
+	display: none;
+}
+
+/* The slider */
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #ccc;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "";
+	height: 26px;
+	width: 26px;
+	left: 4px;
+	bottom: 4px;
+	background-color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked+.slider {
+	background-color: #2196F3;
+}
+
+input:focus+.slider {
+	box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+	-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);
+	transform: translateX(26px);
+}
+
+/* Rounded sliders */
+
+.slider.round {
+	border-radius: 34px;
+}
+
+.slider.round:before {
+	border-radius: 50%;	
+}
+
+.longtext {
+	text-overflow: ellipsis;
+	max-width: 150px;
+}
+
+td.longtext {
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.btn.btn-danger:disabled,
+.btn.btn-danger:disabled:hover,
+input:checked+.slider.round.disable {
+	background: #FB404B;
+}
+input:checked+.slider.round.delivery {
+	background: green;
+}
+.btn.btn-primary:disabled,
+.btn.btn-primary:disabled:hover {
+	background: #2196F3;
+}
+.styles_modal__gNwvD {
+	max-width: 1000px;
+	width: 1000px;
+}
+
+.form-control.pt,
+.form-control.au {
+	margin-left: 0px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 5px;
+	height: 34px;
+	-webkit-appearance: none;
+	background-position-x: 244px;
+	background: url() no-repeat right #ddd;
+}
+.form-control.pt {
+	width: 268px;
+	background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+}

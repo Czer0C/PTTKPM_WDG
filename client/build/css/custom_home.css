@@ -1,0 +1,106 @@
+.tabs_line.demo {
+    position: absolute;
+    top: 30px;
+}
+
+.best_sellers.box_shadow {
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+}
+
+.clearfix.padding {
+    padding-bottom: 60px;
+}
+
+.row.item_holder {
+    position: relative;
+}
+
+.bid_btn {
+    padding: 5px;
+}
+
+    .bid_btn a {
+        display: block;
+        border-radius: 3px;
+        border: 1px solid rgba(14, 140, 228);
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        height: 30px;
+        color: #0e8ce4;
+        line-height: 30px;
+    }
+
+    .bid_btn a:hover {
+        background-color: #0e8ce4;
+        color: #fff;
+        transition: all .3s ease;
+    }
+
+/*
+*   Navbar
+*/
+.dropdown-menu.non-border {    
+    background-color: rgba(0,0,0,0);
+
+    border: 0px solid rgba(0,0,0,.15);
+}
+
+/*
+*   Code của chú Triều :v
+*/
+.row.vertical-divider {
+    overflow: hidden;
+}
+
+.row.vertical-divider>div[class^="col-"] {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: -100px;
+    border-left: 3px solid #F2F7F9;
+    border-right: 3px solid #F2F7F9;
+}
+
+.row.vertical-divider div[class^="col-"]:first-child {
+    border-left: none;
+}
+
+.row.vertical-divider div[class^="col-"]:last-child {
+    border-right: none;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: black;
+}
+
+.tg .tg-yw4l {
+    vertical-align: top
+}
+
+th {
+    text-align: center;
+}
