@@ -18,7 +18,7 @@ const admin = require('./routes/admin');
 // Check database connection 'mongodb://admin:god123456@ds119090.mlab.com:19090/chidori'
 mongoose.connect('mongodb://admin:god123456@ds119090.mlab.com:19090/chidori')
     .then(() => {
-        console.log("Database connection successful");
+        console.log("Database connection successful!");
     })
     .catch((err) => {
         console.log(err);
