@@ -4,7 +4,7 @@ class CopyrightComponent extends Component {
     render() {
         return (
             <div className="copyright">
-                <center>Copyright &copy; All rights reserved |  Developed by Dương Quang Vinh - Nguyễn Hải Triều - Đặng Mai Tính | 6-2018 </center>
+                <center>Copyright &copy; All rights reserved 2-2020 </center>
             </div>
         );
     }

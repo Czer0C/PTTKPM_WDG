@@ -240,7 +240,7 @@ function updateStatusTicket(sessionID) {
             },
             url: `/bid/getWinner/${sessionID}`,
             success: function(data) {
-                if (data && data.accountID == username) {
+                if (data && data.accountID === username) {
                     winner = data.accountID
                 }                
             },
