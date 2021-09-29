@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap-switch": "^3.3.4",
-    "datatables.net": "^1.10.16",
+    "datatables.net": "^1.11.3",
     "jquery": "^3.5.0",
     "react": "^16.4.0",
     "react-bs-datatable": "^1.2.3",
